@@ -38,17 +38,9 @@ Everything is licensed under GPL 3.0+
 
 
 
-# Schematics
-## Legend
-```text
-Component face is shown
-- and | : soldering (371°c, lead free)
-~~xx~~  : resistors of xx ohms
-X       : unconnected pin
-(xx)    : wire
-```
+# Perforated board  
+The schematic shows the face with elecctroninc components.
 
-## Perforated board  
 ```text
   |------------0-----------||-------------10-------------||------20-----|
   1  2  3  4  5  6  7  8  9  0  1  2  3  4  5  6  7  8  9  0  1  2  3  4  
@@ -90,6 +82,15 @@ Q S -------S -------S -------S ---(14)       (10)-D12              D13
 R
 ```
 
+## Misc.
+```text
+- and | : soldering (371°c, lead free)
+~~xx~~  : resistors of xx ohms
+X       : unconnected pin
+```
+
+
+
 ## Wires on the board
 
 ### RGB (-) LED 3v
@@ -115,73 +116,82 @@ R
 - (14) to arduino +5V (arduino power output)
 
 
-
-
 ## Connectors and connected stuff
 
 ### RGB LEDs 4 pins x4
-soldered verticay, holes on the left
+The connectors are soldered verticay, holes on the left for JSP
 ```text
 ]R |
 |G |
 |B |
 ]Px|
 ```
-
-all RGB leds are the same, common anode(+), 5mm
-- led1 : red     in game
-- led2 : green   in game
-- led3 : blue    in game
-- led4 : yellow  in game
-
 - R goes to led red (-)
 - G goes to led green (-)
 - B goes to led blue (-)
 - Px goes to led common anode (+)
 
+Connected RGB leds are common anode(+) 5mm about 3 V
+- led1 : red     in game
+- led2 : green   in game
+- led3 : blue    in game
+- led4 : yellow  in game
+
+
 ### Game switches 2 pins x4
-soldered verticay, holes on the right
+The connectors are soldered verticay, holes on the right for JSP
 ```text
 |Sx[
 |S [
 ```
-
-Switches are 12mm momentary switch. pressed=open
-- switch1 is red
-- switch2 is green
-- switch3 is blue
-- switch4 is yellow
-
 - Sx goes to one pin of the switch
 - S  goes to the other pin
 
+Switches are 12mm momentary switch. pressed=open
+- switch1 is red      in game    
+- switch2 is green    in game
+- switch3 is blue     in game
+- switch4 is yellow   in game
 
-### Power battery 2 pins, x1
-WARNING : polarity convention may change between batteries, 
-==> so wire your connector accordingly to your power source.
-
-soldered horizontally, hole on the bottom (ajust to your battery if polarity changes)
-```text
-V- V+
-```
-
-- Anything that works with an arduino is OK. Here we use 2*4 AAA batteries
-
-- V- goes to battery -
-- V+ goes to battery +
 
 
 ### Power switch 2 pins, x1
-soldered horizontally, hole on the top
+The connector is soldered horisontaly, holes on the top for JSP
 ```text
+_   _
 Sp Sp
+_____
 ```
-
-- power switch is a 12mm latch switch.
-
 - Sp goes to the switch terminal
 - Sp goes to the other  terminal
 
+The power switch is a 12mm latch switch.
+
+
+
+
+### Power source 2 pins, x1
+WARNING : polarity convention may change between sources. Wire your connector accordingly to your power source.
+
+The connector is soldered horizontally, hole on the bottom (put it on top to your battery if polarity changes)
+```text
+option 1 : default
+______
+V- V+
+_   _
+```
+
+```text
+option 2 : reversed polarity
+_   _
+V- V+
+_____
+```
+
+- V- goes to power source -
+- V+ goes to power source +
+
+Anything that works with an arduino nano can be used as a power source. Here we use 2*4 AAA batteries
 
 
 
