@@ -57,17 +57,17 @@ A R--------R--------R-----------R---~~330R~~--(1)
 
 B G--------G--------G-----------R---~~330R~~--(2)       X  X  X      
 
-C B--------B--------B-----------R---~~330R~~--(3) TX1   X  X  X    VIN-(51)
+C B--------B--------B-----------R---~~330R~~--(3) TX1   X  X  X    VIN-(13)
 
-D P1       P2       P3          P4                RX0              GND-(50) 
+D P1       P2       P3          P4                RX0              GND-(12) 
   |        |        |           |
-E (4)      (5)     (6)         (7)    (51)        RST              RST
+E (4)      (5)     (6)         (7)    (13)        RST              RST
                                       |  
-F                                     |           GND         (52)-+5V
+F                                     |           GND         (14)-+5V
                                       |   
 G                                     Sp Sp   (8)-D2               A7
                                          |
-H           (50)                         |    (9)-D3               A6
+H           (12)                         |    (9)-D3               A6
               |                          |
 I ------------------------------------|  |        D4-(1)           A5
   |        |        |        |        |  |
@@ -85,12 +85,12 @@ O |        |        |        |                (7)-D10              REF
   |        |        |        |
 P S1       S2       S3       S4              (11)-D11              3V3
 
-Q S -------S -------S -------S ---(52)       (10)-D12              D13
+Q S -------S -------S -------S ---(14)       (10)-D12              D13
 
 R
 ```
 
-## WIRES (14 wires)
+## Wires on the board
 
 ### RGB (-) LED 3v
 - (1) R to D4 on arduino nano : R color control
@@ -110,9 +110,9 @@ R
 - (11) S4 to D11 on arduino nano  : yellow switch4
 
 ### POWER
-(50) to arduino GND
-(51) to arduino VIN (battery power)
-(52) to arduino +5V (arduino power output)
+- (12) to arduino GND
+- (13) to arduino VIN (battery power)
+- (14) to arduino +5V (arduino power output)
 
 
 
