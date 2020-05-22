@@ -84,7 +84,7 @@ R
 
 ## Misc.
 ```text
-- and | : soldering (371°c, lead free)
+- and | : soldering (371°c for SN 99.3, Cu 0.7)
 ~~xx~~  : resistors of xx ohms
 X       : unconnected pin
 ```
