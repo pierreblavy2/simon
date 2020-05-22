@@ -197,7 +197,7 @@ Anything that works with an arduino nano can be used as a power source. Here we 
 
 
 ## Debug pins
-Debug pins are optional but convenient to mark, with colored stuff, power source polarity.
+Debug pins are optional but convenient for visualy indicating power source polarity.
 
 ### ground, 2 black pins
 soldered vertically, connected to power source and arduino ground
