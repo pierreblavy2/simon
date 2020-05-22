@@ -1,3 +1,11 @@
+# Summary
+This project describe how to do a Simon's say memory game with an arduino nano, 4 RGB leds and switches.
+
+The code for the arduino is provided.
+
+Everything is licensed under GPL 3.0+
+
+
 # HARDWARE LIST
 ## Controller
 - 1x : arduino nano, the 15 male pins on the arduino must be soldered to face the ground when the USB port faces the sky
