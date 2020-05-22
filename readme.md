@@ -39,7 +39,7 @@ Everything is licensed under GPL 3.0+
 
 
 # Perforated board  
-The schematic shows the face with elecctroninc components.
+The schematic shows the face with electroninc components.
 
 ```text
   |------------0-----------||-------------10-------------||------20-----|
