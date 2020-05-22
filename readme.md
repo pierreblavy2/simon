@@ -218,7 +218,7 @@ V
 plugged with the USB port on the bottom side.
 
 ```text
-  . X X X .
+    X X X  
 TX1 X X X VIN
 RX0       GND
 RST       RST
