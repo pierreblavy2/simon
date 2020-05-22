@@ -121,10 +121,10 @@ X       : unconnected pin
 ### RGB LEDs 4 pins x4
 The connectors are soldered verticay, holes on the left for JSP
 ```text
-]R |
-|G |
-|B |
-]Px|
+|R |
+ G |
+ B |
+|Px|
 ```
 - R goes to led red (-)
 - G goes to led green (-)
@@ -141,8 +141,9 @@ Connected RGB leds are common anode(+) 5mm about 3 V
 ### Game switches 2 pins x4
 The connectors are soldered verticay, holes on the right for JSP
 ```text
-|Sx[
-|S [
+|Sx|
+|
+|S |
 ```
 - Sx goes to one pin of the switch
 - S  goes to the other pin
@@ -216,7 +217,6 @@ V
 ## Arduino nano
 plugged with the USB port on the bottom side.
 
-The 6 pin marked with `X` are not connected, but you may solder something here (like female pins) as a placeorder
-to add visual information for the user, so he doesn't plug the arduino in the wrong direction.
+The 6 pin marked with `X` are not connected, but you may solder something here (like female pins) to add visual information for the user, so he doesn't plug the arduino in the wrong direction.
 
 
