@@ -174,7 +174,7 @@ The power switch is a 12mm latch switch.
 ### Power source 2 pins, x1
 WARNING : polarity convention may change between sources. Wire your connector accordingly to your power source.
 
-The connector is soldered horizontally, hole on the bottom (put it on top to your battery if polarity changes)
+The connector is soldered horizontally. The hole position must be chosen consistently with the power source polarity.
 ```text
 option 1 : default
 ______
