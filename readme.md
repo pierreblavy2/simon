@@ -217,6 +217,26 @@ V
 ## Arduino nano
 plugged with the USB port on the bottom side.
 
+```text
+  . X X X .
+TX1 X X X VIN
+RX0       GND
+RST       RST
+GND       5V
+ D2       A7
+ D3       A6
+ D4       A5
+ D5       A4
+ D6       A3
+ D7       A2
+ D8       A1
+ D9       A0
+D10       REF
+D11  usb  3v3
+D12  usb  D13
+     
+```
+
 The 6 pin marked with `X` are not connected, but you may solder something here (like female pins) to add visual information for the user, so he doesn't plug the arduino in the wrong direction.
 
 
