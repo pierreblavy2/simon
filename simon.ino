@@ -225,10 +225,6 @@ void loop() {
       IO_B2=b_new2;
       IO_B3=b_new3;
       IO_B4=b_new4;
-
-      //delay (save battery)
-      //poweroff timeout
-      //TODO power on on interrupt
       
   }else{
       // CPU plays (blocking)
