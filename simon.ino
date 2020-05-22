@@ -1,8 +1,7 @@
 
 //--- ARDUINO NANO ---
-
-#define nano_TX1 1 //31
 #define nano_RX0 0 //30
+#define nano_TX1 1 //31
 
 #define nano_D2  2//32
 #define nano_D3  3// 1
