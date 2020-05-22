@@ -200,15 +200,16 @@ Anything that works with an arduino nano can be used as a power source. Here we 
 Debug pins are optional but convenient for visualy indicating power source polarity.
 
 ### ground, 2 black pins
-soldered vertically, connected to power source and arduino ground
+These pins are soldered vertically. They are connected to power source and arduino ground
 ```text
 K
 K
 ```
 
-### Power V+, 2 reds pins
-soldered vertically, connected to power source V+ and arduino VIN
-*NOT* connected to a regulated voltage port on the arduino.
+### Power source V+, 2 reds pins
+WARNING : V+ from power source. NOT 5V from arduino.
+
+This pins are soldered vertically. They are connected to power source V+ and arduino VIN.
 ```text
 V
 V
