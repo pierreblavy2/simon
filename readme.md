@@ -1,13 +1,13 @@
 # HARDWARE LIST
 ## Controller
-    1x : arduino nano, the 2*15 male pins must be soldered to face the ground.
-    2x: 15 female pins for arduino support
+- 1x : arduino nano, the 2*15 male pins must be soldered to face the ground.
+- 2x: 15 female pins for arduino support
 
 ## LED output
-    4x : 3v RGB common anode LED (here 5mm + support)
-    3x : 330 ohms resistors
-    4x : 4 pins male connectors (here JST)
-    4x : 4 pins female connector (here JST)
+- 4x : 3v RGB common anode LED (here 5mm + support)
+- 3x : 330 ohms resistors
+- 4x : 4 pins male connectors (here JST)
+- 4x : 4 pins female connector (here JST)
 
 ## Switch input
 - 4x : momentary switch (red, green, blue, yellow) open : not pressed, closed : pressed
