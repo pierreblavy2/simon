@@ -1,7 +1,8 @@
 # HARDWARE LIST
 ## Controller
-- 1x : arduino nano, the 2*15 male pins must be soldered to face the ground.
+- 1x : arduino nano, the 15 male pins on the arduino must be soldered to face the ground when the USB port faces the sky
 - 2x: 15 female pins for arduino support
+- 2x: 3 female pins (optional, for visual only) to mark where the 6 arduino pins should go, so the user doesn't plug it in the wrong direction.
 
 ## LED output
 - 4x : 3v RGB common anode LED (here 5mm + support)
