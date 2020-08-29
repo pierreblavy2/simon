@@ -167,7 +167,7 @@ inline void game_win(){
 }
 
 inline void say(byte x){
-    byte answer = random(1,4);
+    byte answer = random(1,5); //inclusive,exclusive
     if(x == answer){
       ++ game_i;
       if(game_i >= game_end){
@@ -230,7 +230,7 @@ void loop() {
       // CPU plays (blocking)
       randomSeed(game_seed);
       for(unsigned int i = 0; i < game_end; ++i){
-           byte  showid = random(1,4);
+           byte  showid = random(1,5); //inclusive,exclusive
             switch(showid){
               case 1 : led_echo1(); break;
               case 2 : led_echo2(); break;
